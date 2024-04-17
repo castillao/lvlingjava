@@ -10,7 +10,9 @@ public class Account {
         this.ownerId = ownerId;
     }
 
-    private int money;
+    // money should be 0 by default
+    private int money=0;
+    
     public int getMoney() {
         return money;
     }
@@ -21,5 +23,9 @@ public class Account {
     public Account(int ownerId, int money) {
         this.ownerId = ownerId;
         this.money = money;
+    }
+
+    public Account(int ownerId) {
+        this.ownerId = ownerId;
     }
 }

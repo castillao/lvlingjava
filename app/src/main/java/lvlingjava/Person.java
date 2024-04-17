@@ -6,7 +6,7 @@ public class Person {
     private int id;
     private static int counter = 1;
     
-    public Person(String firstName, String lastName, int id) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = counter;
@@ -25,7 +25,7 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public String getId() {
+    public int getId() {
         return id;
     }
 
