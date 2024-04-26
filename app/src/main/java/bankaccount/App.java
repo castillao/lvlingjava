@@ -1,4 +1,4 @@
-package lvlingjava;
+package bankaccount;
 
 import java.util.Scanner;
 

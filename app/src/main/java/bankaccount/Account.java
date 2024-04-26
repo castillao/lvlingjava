@@ -1,4 +1,4 @@
-package lvlingjava;
+package bankaccount;
 
 public class Account {
 

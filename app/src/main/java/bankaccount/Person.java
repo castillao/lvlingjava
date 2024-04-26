@@ -1,9 +1,10 @@
-package lvlingjava;
+package bankaccount;
 
 public class Person {
     private String firstName;
     private String lastName;
     private int id;
+    // static attributes belong to the class(not theirs instances/objects)
     private static int counter = 1;
     
     public Person(String firstName, String lastName) {
